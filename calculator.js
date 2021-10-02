@@ -22,5 +22,5 @@ app.post("/",function(req,res){
    res.send( "<h1>Your BMI is "+result+" .</h1>");
  });
  app.listen(3000, function(){
-   console.log("Server running");
+   console.log("Server running at port 3000");
  });
